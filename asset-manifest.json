@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/tip-calulator-app-react/static/css/main.85838d6d.css",
-    "main.js": "/tip-calulator-app-react/static/js/main.500d7b06.js",
-    "static/js/787.28cb0dcd.chunk.js": "/tip-calulator-app-react/static/js/787.28cb0dcd.chunk.js",
-    "static/media/icon-dollar.svg": "/tip-calulator-app-react/static/media/icon-dollar.9f9be3534a9295a65957.svg",
-    "static/media/icon-person.svg": "/tip-calulator-app-react/static/media/icon-person.65bfd20465dd1d2cb58c.svg",
-    "index.html": "/tip-calulator-app-react/index.html",
-    "main.85838d6d.css.map": "/tip-calulator-app-react/static/css/main.85838d6d.css.map",
-    "main.500d7b06.js.map": "/tip-calulator-app-react/static/js/main.500d7b06.js.map",
-    "787.28cb0dcd.chunk.js.map": "/tip-calulator-app-react/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/tip-calculator-app-react/static/css/main.d2a012a4.css",
+    "main.js": "/tip-calculator-app-react/static/js/main.6879334c.js",
+    "static/js/787.28cb0dcd.chunk.js": "/tip-calculator-app-react/static/js/787.28cb0dcd.chunk.js",
+    "static/media/icon-dollar.svg": "/tip-calculator-app-react/static/media/icon-dollar.9f9be3534a9295a65957.svg",
+    "static/media/icon-person.svg": "/tip-calculator-app-react/static/media/icon-person.65bfd20465dd1d2cb58c.svg",
+    "index.html": "/tip-calculator-app-react/index.html",
+    "main.d2a012a4.css.map": "/tip-calculator-app-react/static/css/main.d2a012a4.css.map",
+    "main.6879334c.js.map": "/tip-calculator-app-react/static/js/main.6879334c.js.map",
+    "787.28cb0dcd.chunk.js.map": "/tip-calculator-app-react/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85838d6d.css",
-    "static/js/main.500d7b06.js"
+    "static/css/main.d2a012a4.css",
+    "static/js/main.6879334c.js"
   ]
 }
