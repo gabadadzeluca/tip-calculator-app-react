@@ -1,0 +1,30 @@
+.num-people{
+    background-image: url("../../images/icon-person.svg");
+}
+.num-bill{
+    background-image: url("../../images/icon-dollar.svg");
+}
+.num-people, .num-bill{
+    background-position: 1rem;
+    padding-left: 3rem;
+    background-repeat: no-repeat;
+    width: 80%;
+    min-width: 31.1rem;
+}
+.error{
+    color: var(--red);
+    font-size: 1.6rem;
+    margin-right: 10%;
+}
+.label-div{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.error-input{
+    outline: 2px solid var(--red);
+}
+.error-input:focus{
+    outline: 2px solid var(--red);
+}
