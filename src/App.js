@@ -13,10 +13,23 @@ function App() {
   const[errorMessage, setErrorMessage] = useState('');
   const[tipPerPerson, setTipPerPerson] = useState('');
   const[totalPerPerson, setTotalPerPerson] = useState('');
+  const[btnActive, setBtnActive] = useState(false);
 
   useEffect(()=>{
     calculate();
+    activateBtn();
   }, [tip, selectedTip, bill, people]);
+
+  function activateBtn(){
+    const activeTip = tip == '' ? selectedTip : tip;
+    if(bill !== 0 && people !== 0 && activeTip !== '' 
+      && !isNaN(bill) && !isNaN(tip) && !isNaN(activeTip))
+    {
+      setBtnActive(true);
+    }else{
+      setBtnActive(false);
+    }
+  }
 
   function calculate(){
     if(bill > 0 && people > 0){
@@ -61,7 +74,7 @@ function App() {
     setBill('');
     setPeople('');
     setTip('');
-    setselectedTip('');
+    setselectedTip(10);
   }
   
   return (
@@ -83,7 +96,7 @@ function App() {
           />
         </div>
         <div>
-          <PriceContainer onClick={resetAll} tipPerPerson={tipPerPerson} totalPerPerson={totalPerPerson}/> 
+          <PriceContainer onClick={resetAll} tipPerPerson={tipPerPerson} totalPerPerson={totalPerPerson} btnActive={btnActive}/> 
         </div>
       </div>
     </div>
