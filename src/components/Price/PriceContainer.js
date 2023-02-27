@@ -11,7 +11,7 @@ export default function PriceContainer(props){
                     <TotalPrice styles={styles} tipPerPerson={props.tipPerPerson}/>
                 </div>
                 <div>
-                    <Resetbtn onClick={props.onClick}/>
+                    <Resetbtn onClick={props.onClick} btnActive={props.btnActive}/>
                 </div>
             </div>
         </div>
