@@ -21,13 +21,13 @@ Users should be able to:
 
 ### Screenshot
 
-![]()
+![](./images/screenshot.png)
 
 
 ### Links
 
-- Solution URL: [GitHub]()
-- Live Site URL: [Live URL]()
+- Solution URL: [GitHub](https://github.com/gabadadzeluca/tip-calculator-app-react)
+- Live Site URL: [Live URL](https://gabadadzeluca.github.io/tip-calculator-app-react/)
 
 ## My process
 
