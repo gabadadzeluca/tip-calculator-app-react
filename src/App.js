@@ -22,8 +22,8 @@ function App() {
 
   function activateBtn(){
     const activeTip = tip == '' ? selectedTip : tip;
-    if(bill !== 0 && people !== 0 && activeTip !== '' 
-      && !isNaN(bill) && !isNaN(tip) && !isNaN(activeTip))
+    if(bill != 0 && people != 0 && activeTip != '' 
+      && !isNaN(bill) && !isNaN(activeTip))
     {
       setBtnActive(true);
     }else{
