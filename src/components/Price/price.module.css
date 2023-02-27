@@ -48,6 +48,9 @@ button.inactive{
     color: #00474B;
     cursor: default;
 }
+button:hover{
+    background-color: #9FE8DF;
+}
 @media screen and (min-width: 1400px) {
     .price-container{
         height: 100%;
